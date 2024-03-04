@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime Quizzz</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+  </head>
+  <body>
+    <header>
+      <section class="logo--container">
+        <img
+          class="anime-quiz-logo"
+          src="./assets/images/ANIME-QUIZ-3-1-2024 (1).png"
+        />
+      </section>
+      <section class="score--container">
+        <p class="score">Score: 0</p>
+      </section>
+    </header>
+    <main class="main-content">
+      <section class="questions--container">
+        <div class="quiz--container">
+          <p class="questions__numbers"></p>
+          <p class="questions">
+            
+          </p>
+        </div>
+        <section class="answers--container">
+          <section class="answers">
+            <button class="answer-button" value="The Dragon Slayer"> </button>
+          </section>
+          <section class="answers">
+            <button class="answer-button" value="The Dragon"> </button>
+          </section>
+          <section class="answers">
+            <button class="answer-button " value="The Demon"> </button>
+          </section>
+          <section class="answers">
+            <button class="answer-button" value="The Salamander"> </button>
+          </section>
+          <button class="next">Begin</button>
+        </section>
+      </section>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="api.js" defer></script>
+    <script src="game.js" defer></script>
+    <script src="index.js" defer></script>
+  </body>
+</html>
